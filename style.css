@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+
+}
+
+.center{
+	text-align:center;
+}
+
+header, section{
+	margin:0;
+	padding: 10px 2%;
+	width: 100%;
+}
+
+header{
+	background-color:chartreuse;
+}
+
+#opening {
+	font-size:57px;
+	font-family: "Arial";
+	margin:0;
+}
+
+#opening2{
+	font-size:50px;
+	font-family: "Arial";
+	margin:0;
+}
