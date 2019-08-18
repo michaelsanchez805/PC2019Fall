@@ -6,9 +6,28 @@ body {
 	margin:0;
 
 }
+hr{
+	border-top: 1px solid black;
 
+}
 #mehul {
 	margin-left:15px;
+}
+#text1 {
+	font-size:26px;
+	text-align:center;
+	display:inline-block;
+	font-family:verdana;
+}
+#information{
+	font-size:26px;
+	margin-bottom:0px; 
+}
+#moto{
+	font-size:26px;
+}
+#message{
+	margin-right:0px;
 }
 #about{
 	background:skyblue;
@@ -16,9 +35,18 @@ body {
 #courses{
 	background:peachpuff;
 }
+.topmargin{
+	margin-top:30px; 
+}
+.biggly {
+	font-size:22px;
+}
+.geneva{
+	font-family:geneva;
+}
 #info{
-	display: flex;
-	flex-basis:50% 50%;
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 #tracks{
 	margin-left:15px;
@@ -26,10 +54,12 @@ body {
 #block{
 	display: flex;
 	flex-basis:50% 50%;
+	font-size:17.642px;
 }
 #toprow {
-	display: flex;
-	flex-basis:50% 50%;
+	display:grid;
+	grid-column-gap: -5px;
+	grid-template-columns: 44% 56%;
 }
 #video{
 	margin:0;
@@ -38,6 +68,11 @@ body {
 #signup{
 	font-size:50px;
 	text-decoration:none;
+	background:rgb(30 144 255);
+	color:white;
+	margin-top:10px;
+	margin-left:60px; 
+	font-family:verdana;
 }
 .center{
 	text-align:center;
@@ -49,9 +84,9 @@ header, section{
 	width: 100%;
 }
 header{
-	background-color:chartreuse;
+	background-color:rgb(152 251 152);
 }
-#text1, .text2 {
+.text2 {
 	flex:100%;
 }
 .heading{
@@ -61,8 +96,9 @@ header{
 }
 .opening {
 	font-size:55px;
-	font-family: "Arial";
-	margin:0px;
+	font-family: "tahoma";
+	margin-bottom:10px;
+
 }
 
 #opening2{
@@ -71,15 +107,16 @@ header{
 	margin:0;
 	padding:0;
 }
-#text1{
-	font-size:28px;
-	margin:0;
-	padding:0;
-}
 
+.headertext{
+	font-size:20px;
+}
+#photo{
+	width:1425px;
+}
 @media (max-width:800px){
-	iframe, img {
-		flex-basis:100%; 
+	img {
+		grid-template-columns:100%;
 	}
 }
 
