@@ -7,28 +7,82 @@ body {
 
 }
 
+#mehul {
+	margin-left:15px;
+}
+#about{
+	background:skyblue;
+}
+#courses{
+	background:peachpuff;
+}
+#info{
+	display: flex;
+	flex-basis:50% 50%;
+}
+#tracks{
+	margin-left:15px;
+}
+#block{
+	display: flex;
+	flex-basis:50% 50%;
+}
+#toprow {
+	display: flex;
+	flex-basis:50% 50%;
+}
+#video{
+	margin:0;
+	padding:0;
+}
+#signup{
+	font-size:50px;
+	text-decoration:none;
+}
 .center{
 	text-align:center;
 }
 
 header, section{
-	margin:0;
+	margin:0px;
 	padding: 10px 2%;
 	width: 100%;
 }
-
 header{
 	background-color:chartreuse;
 }
-
-#opening {
-	font-size:57px;
+#text1, .text2 {
+	flex:100%;
+}
+.heading{
+	font-size:40px;
 	font-family: "Arial";
-	margin:0;
+	margin:0px;
+}
+.opening {
+	font-size:55px;
+	font-family: "Arial";
+	margin:0px;
 }
 
 #opening2{
 	font-size:50px;
 	font-family: "Arial";
 	margin:0;
+	padding:0;
 }
+#text1{
+	font-size:28px;
+	margin:0;
+	padding:0;
+}
+
+@media (max-width:800px){
+	iframe, img {
+		flex-basis:100%; 
+	}
+}
+
+
+
+
