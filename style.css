@@ -26,7 +26,7 @@ p {
 #text1 {
 	font-size:1.625em;
 	text-align:center;
-	display:inline-block;
+	/*display:inline-block;*/
 	font-family:verdana;
 }
 .pics{
@@ -106,6 +106,10 @@ footer{
 }
 .center{
 	text-align:center;
+}
+
+#avon{
+	width: 100%
 }
 
 header, section, footer{
