@@ -132,7 +132,7 @@ header{
 	font-size:3.4375em;
 	font-family: "tahoma";
 	margin-bottom:0.625em;
-	margin-top:0em;
+
 }
 
 #opening2{
@@ -156,7 +156,8 @@ img {
 	max-width: 95%;
 }
 @media (max-width:50em){
-	#pcontainer{
+	.plibrary{
 		grid-template-columns:50% 50%;
 	}
 }
+
