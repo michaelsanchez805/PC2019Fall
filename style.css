@@ -7,14 +7,14 @@ body {
 
 }
 hr{
-	border-top: 1px solid black;
+	border-top: 0.0625em solid black;
 
 }
 #mehul {
-	margin-left:15px;
+	margin-left:0.9375em;
 }
 #text1 {
-	font-size:26px;
+	font-size:1.625em;
 	text-align:center;
 	display:inline-block;
 	font-family:verdana;
@@ -26,23 +26,23 @@ hr{
   	width: 45%;
 }
 #information{
-	font-size:26px;
-	margin-bottom:0px; 
+	font-size:1.625em;
+	margin-bottom:0em; 
 }
 footer{
 	background-color:rgb(152 251 152)
 }
 #meth{
-	font-size:26px;
+	font-size:1.625em;
 }
 #moto{
-	font-size:26px;
+	font-size:1.625em;
 }
 .method{
-	font-size:18px;
+	font-size:1.125em;
 }
 #message{
-	margin-right:0px;
+	margin-right:0em;
 }
 #about{
 	background:skyblue;
@@ -51,10 +51,10 @@ footer{
 	background:peachpuff;
 }
 .topmargin{
-	margin-top:30px; 
+	margin-top:1.875em; 
 }
 .biggly {
-	font-size:22px;
+	font-size:1.375em;
 }
 .geneva{
 	font-family:geneva;
@@ -64,16 +64,15 @@ footer{
 	grid-template-columns: 50% 50%;
 }
 #tracks{
-	margin-left:15px;
+	margin-left:0.9375em;
 }
 #block{
 	display: flex;
 	flex-basis:50% 50%;
-	font-size:17.642px;
+	font-size:1.102625em;
 }
 #toprow {
 	display:grid;
-	grid-column-gap: -5px;
 	grid-template-columns: 44% 56%;
 }
 #video{
@@ -81,25 +80,25 @@ footer{
 	padding:0;
 }
 #signup{
-	font-size:50px;
+	font-size:3.125em;
 	text-decoration:none;
 	background:rgb(30 144 255);
 	color:white;
-	margin-top:10px;
-	margin-left:60px; 
+	margin-top:0.625em;
+	margin-left:3.75em; 
 	font-family:verdana;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-left:45px;
-	padding-right:45px;
+	padding-top:1.25em;
+	padding-bottom:1.25em;
+	padding-left:2.8125em;
+	padding-right:2.8125em;
 }
 .center{
 	text-align:center;
 }
 
 header, section, footer{
-	margin:0px;
-	padding: 10px 2%;
+	margin:0em;
+	padding: 0.625em 2%;
 	width: 100%;
 }
 header{
@@ -109,36 +108,38 @@ header{
 	flex:100%;
 }
 .heading{
-	font-size:40px;
+	font-size:2.5em;
 	font-family: "Arial";
-	margin:0px;
+	margin:0em;
 }
 .opening {
-	font-size:55px;
+	font-size:3.4375em;
 	font-family: "tahoma";
-	margin-bottom:10px;
+	margin-bottom:0.625em;
 
 }
 
 #opening2{
-	font-size:50px;
+	font-size:3.125em;
 	font-family: "Arial";
-	margin:0;
-	padding:0;
+	margin:0em;
+	padding:0em;
 }
 
 .headertext{
-	font-size:20px;
+	font-size:1.25em;
 }
 #pcontainer{
 	display:grid;
-	grid-column-gap: 20px;
+	grid-column-gap: 1.25em;
 	grid-template-columns: 50% 50%; 
+	margin-left: auto;
+  	margin-right: auto;
 }
 img {
-	max-width: 98%;
+	max-width: 95%;
 }
-@media (max-width:800px){
+@media (max-width:50em){
 	.plibrary{
 		grid-template-columns:50% 50%;
 	}
