@@ -113,7 +113,7 @@ header, section, footer{
 	width: 100%;
 }
 header{
-	background-color:rgb(152 251 152);
+	background-color:rgb(152,251,152);
 }
 .text2 {
 	flex:100%;
