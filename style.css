@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 body {
@@ -9,6 +9,12 @@ body {
 hr{
 	border-top: 0.0625em solid black;
 
+}
+table {
+	width: 100%;
+}
+td {
+	width: 50%;
 }
 #mehul {
 	margin-left:0.9375em;
@@ -43,6 +49,7 @@ footer{
 }
 #message{
 	margin-right:0em;
+	width: 100%;
 }
 #about{
 	background:skyblue;
@@ -72,8 +79,8 @@ footer{
 	font-size:1.102625em;
 }
 #toprow {
-	display:grid;
-	grid-template-columns: 44% 56%;
+	/*display:grid;*/
+	/*grid-template-columns: 44% 56%;*/
 }
 #video{
 	margin:0;
