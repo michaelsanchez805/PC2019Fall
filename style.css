@@ -112,6 +112,11 @@ header, section, footer{
 	padding: 0.625em 2%;
 	width: 100%;
 }
+
+_::-webkit-full-page-media, _:future, :root .panel {
+   background-color:#FFF
+}
+
 header{
 	background-color:rgb(152,251,152);
 }
