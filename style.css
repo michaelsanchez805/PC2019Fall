@@ -20,15 +20,16 @@ p {
 	font-size: 1vw;
 }
 
-#mehul {
+/*#mehul {
 	margin-left:0.9375em;
-}
+}*/
 #text1 {
 	font-size:1.625em;
 	text-align:center;
-	display:inline-block;
+	/*display:inline-block;*/
 	font-family:verdana;
 }
+
 .pics{
 	display: block;
   	margin-left: auto;
@@ -93,7 +94,7 @@ footer{
 #signup{
 	font-size:3.125em;
 	text-decoration:none;
-	background:rgb(30 144 255);
+	background:rgb(30,144,255);
 	color:white;
 	margin-top:0.625em;
 	margin-left:3.75em; 
@@ -102,9 +103,14 @@ footer{
 	padding-bottom:1.25em;
 	padding-left:2.8125em;
 	padding-right:2.8125em;
+	-webkit-appearance:button;
 }
 .center{
 	text-align:center;
+}
+
+#avon{
+	width: 100%
 }
 
 header, section, footer{
@@ -132,6 +138,7 @@ header{
 	font-size:3.4375em;
 	font-family: "tahoma";
 	margin-bottom:0.625em;
+	margin:0em;
 
 }
 
@@ -160,4 +167,3 @@ img {
 		grid-template-columns:50% 50%;
 	}
 }
-
