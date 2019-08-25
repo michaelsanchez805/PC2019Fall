@@ -14,15 +14,21 @@ table {
 	width: 100%;
 }
 td {
-	width: 50%;
+	width: 48%;
 }
 p {
 	font-size: 1vw;
 }
-
-/*#mehul {
+.buttoncenter{
+	margin-left:3.125em;
+}
+.maria {
 	margin-left:0.9375em;
-}*/
+	font-size:1.125em;
+}
+#button{
+	text-align:center;
+}
 #text1 {
 	font-size:1.625em;
 	text-align:center;
@@ -92,26 +98,36 @@ footer{
 	padding:0;
 }
 #signup{
-	font-size:3.125em;
 	text-decoration:none;
 	background:rgb(30,144,255);
 	color:white;
 	margin-top:0.625em;
-	margin-left:3.75em; 
-	font-family:verdana;
-	padding-top:1.25em;
-	padding-bottom:1.25em;
-	padding-left:2.8125em;
-	padding-right:2.8125em;
+	padding-top:1.125em;
+	padding-bottom:1.125em;
+	padding-left:2.5em;
+	padding-right:2.5em;
 	-webkit-appearance:button;
+}
+#signup2{
+	text-decoration:none;
+	font-size:2.5em;
+	background:rgb(30,144,255);
+	color:white;
+	text-align:center;
+	font-family:verdana;
+	-webkit-appearance:button;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-left:2em;
+	padding-right:2em;  
+
+
 }
 .center{
 	text-align:center;
 }
 
-#avon{
-	width: 100%
-}
+
 
 header, section, footer{
 	margin:0em;
