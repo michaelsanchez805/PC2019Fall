@@ -90,8 +90,8 @@ footer{
 	font-size:1.102625em;
 }
 #toprow {
-	/*display:grid;*/
-	/*grid-template-columns: 44% 56%;*/
+	/*display:grid;
+	grid-template-columns: 44% 56%;*/
 }
 #video{
 	margin:0;
